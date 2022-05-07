@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'sunday';
+	src: url('fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sunday.svg#arkhip') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+figure{
+    font-family:sunday;
+    padding-left:50px ;
+    font-size:30px ;
+    background-color: rgb(79, 158, 14); 
+    width:500px ;
+    padding-top:30px ;
+}
+body{
+    background-image: url(https://klike.net/uploads/posts/2020-05/1589785986_4.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.h11{
+    font-style: italic;
+    font-variant:small-caps;
+}
+p{
+    font-weight: bolder;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top: 25px;
+    background-color: #30A8E6;
+    height: 75px;
+}
+li{
+    float: left;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    background-color: #30A8E6;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    display: block;
+    border-right: 1px solid white;
+    -moz-transition: all 0.3s 0.01s ease;
+}
+.ul2{
+    position: absolute;
+    top: 25px;
+    display: none;
+}
+li:hover > .ul2{
+    display: block;
+    width: 150px;
+}
+li:hover > .ul2 > .li2 {
+    float: none;
+}
