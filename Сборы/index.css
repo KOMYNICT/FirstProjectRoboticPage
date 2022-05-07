@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'sunday';
+	src: url('fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sunday.svg#arkhip') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+figure{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left:50px ;
+    font-size:30px ;
+    background-color: rgb(146, 155, 152); 
+    width:500px ;
+    padding-top:30px ;
+}
+body{
+    background-image: url(https://klike.net/uploads/posts/2020-05/1589785986_4.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.h12{
+    font-style: calc();
+    font-variant:small-caps;
+}
+p{
+    font-weight: bolder;
+    font-size: 30px;
+}
